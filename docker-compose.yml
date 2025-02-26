@@ -1,3 +1,5 @@
 services:
-  myapp:
-    build: .
+  tests:
+    build:
+      context: .
+      dockerfile: test.Dockerfile
